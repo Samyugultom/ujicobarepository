@@ -1,0 +1,32 @@
+PERTEMUAN 1 PRAKTIKUM GRAFKOM A
+
+istilah pada git =
+repository : folder yg menyimpan banyak file atau folder lain.
+pull : menarik atau memindahkan file dari repo global (github) ke file lokal (laptop)
+push : mendorong atau memindahkan file dari lokal (laptop) ke repo global (github)
+commit : savepoint atau perubahan yang dilakukan di repo dan tersimpan di repo
+clone : kloning, mengcopas repositori yg ada di github ke file lokal di laptop kita
+master branch : jalur utama dari suatu project
+branch : cabang, dibuat ketika ingin mengubah repo tanpa mengacaukan jalur utama
+merge : menyatukan branch dengan master branch
+pull request : permintaan untuk mengubah kode
+fork : memindahkan repo org lain ke repo kita
+
+sintaks (cukup hafalkan ini aja) = 
+git init : inisialisasi folder di lokal menjadi repo global
+git clone (link) : kloning atau memindah repo global ke file lokal di laptop
+git add . : menambahkan semua perubahan yg dilakukan  
+git commit -m "pesan" : menambahkan pesan commit atau perubahan yg dilakukan 
+git push : mendorong perubahan dari repo lokal ke global
+git pull : menarik perubahan yg ada di repo global ke repo lokal
+git status : melihat status git saat ini
+
+tugas =
+1. berpasangan
+2. satu orang membuat repository di akunnya
+3. kemudian add colaborator dengan menambahkan akun github pasangannya
+4. clone repo global ke repo lokal di file laptop
+5. tambahkan file txt, push ke repo dg pesan commit "nama-nim"
+6. teman satunya nge pull dulu lalu nambahin file txt juga dg pesan commit "nama-nim", trs push ke github
+7. taraa kalian udah bisa kolaborasi di github \(^.^)/
+
